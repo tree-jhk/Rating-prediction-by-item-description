@@ -1,0 +1,14 @@
+python make_dataset.py --split_ratio 1.0 --dataset_path original_dataset.pickle --with_user 0  --device cpu --batch_size 2048
+python predict.py --split_ratio 1.0 --dataset_path original_dataset.pickle --with_user 0 --device cpu --batch_size 2048
+
+python predict.py --split_ratio 1.0 --dataset_path original_dataset.pickle --with_user 0 --device cpu --batch_size 2048
+
+python predict.py --split_ratio 1.0 --dataset_path original_dataset.pickle --with_user 0 --device cpu --batch_size 2048
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 611483944/611483944 [00:00<00:00, 891345821.13it/s]
+original_dataset.pickle load done
+TextModel
+len(predict_dataloader) =23
+args.batch_size =2048
+len(predict_dataloader) // (args.batch_size) + 1 =1
+23it [30:24, 79.33s/it]
+Validation Avg Loss: 1.0077473858128423

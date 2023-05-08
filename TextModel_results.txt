@@ -1,0 +1,30 @@
+threshold: 4.000
+Precision: 0.808
+Predicted as bigger than 4: 7994
+Actually bigger than 4: 6456
+Total number of data: 46774
+============================================
+threshold: 4.100
+Precision: 0.836
+Predicted as bigger than 4: 4608
+Actually bigger than 4: 3850
+Total number of data: 46774
+============================================
+threshold: 4.200
+Precision: 0.854
+Predicted as bigger than 4: 2375
+Actually bigger than 4: 2029
+Total number of data: 46774
+============================================
+threshold: 4.300
+Precision: 0.856
+Predicted as bigger than 4: 1413
+Actually bigger than 4: 1209
+Total number of data: 46774
+============================================
+threshold: 4.400
+Precision: 0.892
+Predicted as bigger than 4: 538
+Actually bigger than 4: 480
+Total number of data: 46774
+============================================
